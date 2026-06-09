@@ -12,6 +12,11 @@ namespace AutoCAD.NET_GitHub_1
 {
     public class B1
     {
-
+        [CommandMethod("Hello")]
+        public void SayHello()
+        {
+            Editor ed = Application.DocumentManager.MdiActiveDocument.Editor;
+            ed.WriteMessage("Hello AutoCAD");
+        }
     }
 }
