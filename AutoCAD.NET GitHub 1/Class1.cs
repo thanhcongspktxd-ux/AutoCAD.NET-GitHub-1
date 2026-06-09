@@ -12,5 +12,6 @@ namespace AutoCAD.NET_GitHub_1
 {
     public class B1
     {
+
     }
 }
